@@ -1,0 +1,23 @@
+{
+  "name": "renderpage",
+  "version": "0.3.0",
+  "description": "PhantomJS CLI script that renders a webpage to a single image",
+  "keywords": [
+    "web",
+    "scraper",
+    "phantomjs"
+  ],
+  "homepage": "https://github.com/chbrown/renderpage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chbrown/renderpage.git"
+  },
+  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "*"
+  },
+  "bin": {
+    "renderpage": "./index.js"
+  }
+}
